@@ -16,11 +16,8 @@ let newArr1 =Colors.map(Color);
  }
 
 //<!---------------------- .MAP() Question no 01(b) ------------------------->
-Colors.map(color => {
-     if (color === 'Red') {
-        document.getElementById('result2').innerHTML = color;
-    }
- });
+const Present1 = Colors.filter(element => element === 'Red');
+document.getElementById("result2").innerHTML= Present1;
 
 //<!---------------------- .MAP() Question no 02(a) ------------------------->
 const persons = [
