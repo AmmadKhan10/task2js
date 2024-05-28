@@ -78,11 +78,6 @@ const number1 = [2, 3, 1, 5, 10, 15, 12, 4, 34];
 const newarray1 = number1.filter(number1 => number1%2 ===0);
 document.getElementById("even").innerHTML = `New Array with only even Numbers = ${newarray1}.`;
 
-//<!---------------------- .MAP() Question no 07 ------------------------->
-//const number = [2, 3, 1, 5, 10, 15, 12, 4, 34];
-//const newarray = number.filter(number => number > 5);
-//document.getElementById("greater5").innerHTML = `Numbers that are only greater than 5 = ${newarray}`;
-
 //<!---------------------- .MAP() Question no 07(b) ------------------------->
 let numbers2 = [2, 4, 5, 10, 12, 15, 35, 39, 59, 99];
 let newstr = numbers2.map(number => number.toString());
@@ -116,6 +111,9 @@ let sumpositivenumber = Checkpositivenumbers.reduce((a,b)=>{
 document.getElementById("sumpositivenmbr").innerHTML= `The sum of positive numbers is : ${sumpositivenumber}`;
 
 //<!------------------------- Question no 11 ----------------------------->
+const newArr4 = ['rameen' , 'rashid', 'ali' , 'alina' , 'aliya' , 'mahnoor' , 'mehwish' , 'sana' , 'tahira' , 'taimoor'];
+const newarray4 =newArr4.filter(newArr4 => newArr4.length >= 5);
+document.getElementById("Show_Name").innerHTML = ` greater than 5 = ${newarray4}`;
 
 
 
